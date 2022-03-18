@@ -89,7 +89,7 @@ class TicTacToe:
 
         player = 'X' if self.get_random_first_player() == 1 else 'O'
         while True:
-            print(f"Player {player} turn")
+            print("Player {player} turn")
 
             self.show_board()
 
@@ -103,7 +103,7 @@ class TicTacToe:
 
             # checking whether current player is won or not
             if self.is_player_win(player):
-                print(f"Player {player} wins the game!")
+                print("Player {player} wins the game!")
                 break
 
             # checking whether the game is draw or not
